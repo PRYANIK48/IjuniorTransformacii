@@ -239,7 +239,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 619396329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f4b8d46a6297374180926f2838f015e, type: 3}
+  m_Script: {fileID: 11500000, guid: ee6c2c7ac05d2614da82d00f8a509514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scaleSpeed: 1
@@ -376,6 +376,8 @@ GameObject:
   - component: {fileID: 773544550}
   - component: {fileID: 773544549}
   - component: {fileID: 773544548}
+  - component: {fileID: 773544554}
+  - component: {fileID: 773544553}
   - component: {fileID: 773544552}
   m_Layer: 0
   m_Name: Cube (1)
@@ -482,11 +484,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 773544547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79fb4e6ebe1590442aac1ab303c14718, type: 3}
+  m_Script: {fileID: 11500000, guid: ee6c2c7ac05d2614da82d00f8a509514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleSpeed: 1
+--- !u!114 &773544553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773544547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9581bd5c1c91a2f4cbcb5b99a82ca8c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 100
-  scaleSpeed: 1
+--- !u!114 &773544554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773544547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625ad1cbaa524cc4b9891703adf30947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &920726652
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +631,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 920726652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fb3e30f38b12b4b9b2f990e1095fd9, type: 3}
+  m_Script: {fileID: 11500000, guid: 625ad1cbaa524cc4b9891703adf30947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &963194225
@@ -818,7 +844,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246160047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6737274e4b3d90b4484e4b3405238fd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 9581bd5c1c91a2f4cbcb5b99a82ca8c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 20
